@@ -198,17 +198,3 @@ Entrega1-proyecto-1-2026.
 López-Parrado, A. (s/fb). conferencia-2/pyqt en main · parrado/p-source-code-I-2026. 
 https://github.com/parrado/p-source-code-I-2026/tree/main/lecture-2/pyqt  
 DeepSeek. (2026). Asistencia de programación. https://deepseek.com/
- 
-ANEXOS (opcional) 
-Nombre del Archivo 
-game_engine.py 
-server_adapter.py 
-Descripción 
-Motor de juego con reglas del parqués 
-Adaptador del servidor 
-client_transport.py 
-interfaz.py 
-test_client.py 
-Cliente independiente  
-Interfaz gráfica principal con PyQt 6 
-Cliente de pruebas en consola
