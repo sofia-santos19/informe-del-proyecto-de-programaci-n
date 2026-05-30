@@ -55,17 +55,17 @@ debe hacer el código, iniciando principalmente enfocados a la funcionalidad net
 programa como son la lógica principal del juego, las reglas predeterminadas o variantes, 
 acciones y movimientos dentro del tablero e información del servidor. En la presente lista se 
 especifican cada uno de ellos: 
--● Permitir un juego simultáneo de dos (2) jugadores. 
--● Lanzamiento de dados. 
-● Asignar automáticamente un color para cada jugador según el orden de llegada. 
-● Orden de inicio por lanzamiento de dados. 
-● Movimiento de fichas por el valor de cada dado. 
-● Salida de la cárcel por regla establecida. 
-● Movimientos básicos en las casillas. 
-● Detección de capturas, casillas seguras y victoria de jugador. 
-● Repetición de turno con dobles. 
-● Sincronización entre jugadores. 
-● Permite la interacción mediante botones en la IU.  
+# ● Permitir un juego simultáneo de dos (2) jugadores. 
+# ● Lanzamiento de dados. 
+# ● Asignar automáticamente un color para cada jugador según el orden de llegada. 
+# ● Orden de inicio por lanzamiento de dados. 
+# ● Movimiento de fichas por el valor de cada dado. 
+# ● Salida de la cárcel por regla establecida. 
+# ● Movimientos básicos en las casillas. 
+# ● Detección de capturas, casillas seguras y victoria de jugador. 
+# ● Repetición de turno con dobles. 
+# ● Sincronización entre jugadores. 
+# ● Permite la interacción mediante botones en la IU.  
 Posterior a lo referente sobre la lógica pura del juego se tomó en cuenta un aspecto 
 relacionado a la calidad del sistema, estos requerimientos se basan en la experiencia de los 
 jugadores al interactuar con la interfaz y en la lectura y adaptación del código. 
