@@ -55,8 +55,12 @@ debe hacer el código, iniciando principalmente enfocados a la funcionalidad net
 programa como son la lógica principal del juego, las reglas predeterminadas o variantes, 
 acciones y movimientos dentro del tablero e información del servidor. En la presente lista se 
 especifican cada uno de ellos: 
-# ● Permitir un juego simultáneo de dos (2) jugadores. 
-# ● Lanzamiento de dados. 
+ 
+ 
+ ● Permitir un juego simultáneo de dos (2) jugadores. 
+
+ 
+ ● Lanzamiento de dados. 
 # ● Asignar automáticamente un color para cada jugador según el orden de llegada. 
 # ● Orden de inicio por lanzamiento de dados. 
 # ● Movimiento de fichas por el valor de cada dado. 
