@@ -61,26 +61,50 @@ especifican cada uno de ellos:
 
  
  ● Lanzamiento de dados. 
-# ● Asignar automáticamente un color para cada jugador según el orden de llegada. 
-# ● Orden de inicio por lanzamiento de dados. 
-# ● Movimiento de fichas por el valor de cada dado. 
-# ● Salida de la cárcel por regla establecida. 
-# ● Movimientos básicos en las casillas. 
-# ● Detección de capturas, casillas seguras y victoria de jugador. 
-# ● Repetición de turno con dobles. 
-# ● Sincronización entre jugadores. 
-# ● Permite la interacción mediante botones en la IU.  
+
+ 
+ ● Asignar automáticamente un color para cada jugador según el orden de llegada. 
+
+ 
+ ● Orden de inicio por lanzamiento de dados. 
+ 
+ ● Movimiento de fichas por el valor de cada dado. 
+
+ ● Salida de la cárcel por regla establecida. 
+
+ ● Movimientos básicos en las casillas. 
+
+ 
+ ● Detección de capturas, casillas seguras y victoria de jugador. 
+
+ 
+ ● Repetición de turno con dobles. 
+
+
+● Sincronización entre jugadores. 
+
+ 
+ ● Permite la interacción mediante botones en la IU.  
 Posterior a lo referente sobre la lógica pura del juego se tomó en cuenta un aspecto 
 relacionado a la calidad del sistema, estos requerimientos se basan en la experiencia de los 
 jugadores al interactuar con la interfaz y en la lectura y adaptación del código. 
 ● Interfaz comprensible para cualquier usuario. 
+
+
 ● Permite juego simultáneo entre varios clientes. 
+
+
 ● Estructura separada en: 
 ○ Lógica del juego. 
+
 ○ Comunicación cliente a servidor. 
+
 ○ Interfaz gráfica. 
+
 ● Actualización de estado a tiempo real. 
+
 ● Sin bloqueos de interfaz. 
+
 Con requerimientos establecidos se procedió con la generación del código, en el cual 
 según se fue avanzando se visualizaron algunos más para el desarrollo. En este caso, se 
 requirió la definición de una estructura para el cliente y el servidor, también para almacenar 
@@ -173,4 +197,18 @@ https://github.com/parrado/entrega1-proyecto-1-2026
 Entrega1-proyecto-1-2026. 
 López-Parrado, A. (s/fb). conferencia-2/pyqt en main · parrado/p-source-code-I-2026. 
 https://github.com/parrado/p-source-code-I-2026/tree/main/lecture-2/pyqt  
-DeepSeek. (2026). Asistencia de programación. https://deepseek.com/ 
+DeepSeek. (2026). Asistencia de programación. https://deepseek.com/
+ 
+ANEXOS (opcional) 
+Nombre del Archivo 
+game_engine.py 
+server_adapter.py 
+Descripción 
+Motor de juego con reglas del parqués 
+Adaptador del servidor 
+client_transport.py 
+interfaz.py 
+test_client.py 
+Cliente independiente  
+Interfaz gráfica principal con PyQt 6 
+Cliente de pruebas en consola
